@@ -1,0 +1,155 @@
+
+/* Global Styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+	background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px;
+  }
+  
+  p {
+	margin-bottom: 20px;
+  }
+  
+  ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  a {
+	text-decoration: none;
+	color: #337ab7;
+  }
+  
+  a:hover {
+	color: #23527c;
+  }
+  
+  /* Header Styles */
+  
+  header {
+	background-color: #337ab7;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  header h1 {
+	color: #fff;
+	margin-bottom: 0;
+  }
+  
+  /* Nav Styles */
+  
+  nav {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  nav ul {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  nav li {
+	margin-right: 20px;
+  }
+  
+  nav a {
+	color: #fff;
+  }
+  
+  nav a:hover {
+	color: #ccc;
+  }
+  
+  /* Main Styles */
+  
+  main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  section {
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About Styles */
+  
+  .photograph {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Skills Styles */
+  
+  .skills ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .skills li {
+	margin-right: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .skills h3 {
+	margin-top: 0;
+  }
+  
+  /* Projects Styles */
+  
+  .projects ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  
+  .projects li {
+	margin-right: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .projects img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+  }
+  
+  /* Contact Styles */
+  
+  .contact form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  footer {
+	background-color: #337ab7;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+  }
